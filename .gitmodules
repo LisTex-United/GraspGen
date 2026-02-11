@@ -1,0 +1,3 @@
+[submodule "GraspGenModels"]
+	path = GraspGenModels
+	url = https://huggingface.co/adithyamurali/GraspGenModels

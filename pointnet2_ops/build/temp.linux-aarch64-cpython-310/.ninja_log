@@ -1,0 +1,10 @@
+# ninja log v7
+4	74622	1769103388815617390	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/sampling.o	93d7671b80cc133b
+1	75285	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/bindings.o	5407c5003d07be1b
+0	75591	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/ball_query.o	9fc4a4904ae1f010
+3	76281	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/interpolate.o	8f8ba7a111e56dd8
+2	79230	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/group_points.o	936cf436244a34d5
+18	80034	1769103388827617538	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/sampling_gpu.o	1bb95e3321e9531
+2	84391	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/group_points_gpu.o	cd3fb9d3024a7391
+1	85549	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/ball_query_gpu.o	59e5bc628db681d6
+3	86091	1769103388811617341	/home/booster/Workspace/GraspGen/pointnet2_ops/build/temp.linux-aarch64-cpython-310/pointnet2_ops/_ext-src/src/interpolate_gpu.o	999fe6e98a6bafe2

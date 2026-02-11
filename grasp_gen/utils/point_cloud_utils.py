@@ -51,7 +51,7 @@ def knn_points(X: torch.Tensor, K: int, norm: int):
 
 
 def point_cloud_outlier_removal(
-    obj_pc: torch.Tensor, threshold: float = 0.014, K: int = 20
+    obj_pc: torch.Tensor, threshold: float = 0.05, K: int = 20
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """
     Remove outliers from a point cloud. K-nearest neighbors is used to compute the distance to the nearest neighbor for each point.
@@ -82,9 +82,6 @@ def point_cloud_outlier_removal(
     filtered_pc = filtered_pc.view(-1, 3)
     removed_pc = removed_pc.view(-1, 3)
 
-    logger.info(
-        f"Removed {obj_pc.shape[1] - filtered_pc.shape[0]} points from point cloud"
-    )
     return filtered_pc, removed_pc
 
 

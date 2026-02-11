@@ -1,0 +1,8 @@
+# Request
+sensor_msgs/PointCloud2 object_pointcloud
+---
+# Response
+geometry_msgs/PoseArray grasp_poses
+geometry_msgs/PoseStamped best_grasp
+bool success
+string message

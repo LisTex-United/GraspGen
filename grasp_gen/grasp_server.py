@@ -185,6 +185,11 @@ class GraspGenSampler:
 
         if remove_outliers:
             obj_pcd, _ = point_cloud_outlier_removal(obj_pcd)
+            
+            # Safety check: if outlier removal eliminated all points, return empty results
+            if len(obj_pcd) == 0:
+                logger.warning("Outlier removal eliminated all points! Skipping grasp generation.")
+                return [], [], []
 
         obj_pcd_center = obj_pcd.mean(axis=0)
         obj_pts_color = torch.zeros_like(obj_pcd)

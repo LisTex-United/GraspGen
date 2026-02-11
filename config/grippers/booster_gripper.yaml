@@ -1,0 +1,25 @@
+
+_target_: graspsampling.hands.URDFHand
+file_name: null
+grasp_frame: base_frame
+maximum_aperture: 0.085
+approach_direction: [0., 0., 1.]
+open_configurations:
+  - [0.]
+close_configurations:
+  - [0.7]
+width: 0.085
+depth: 0.12
+closing_regions:
+  - extents: [0.085, 0.02, 0.06]
+    translation: [0.0, 0.0, 0.06]
+    rotation_wxyz: [1., 0., 0., 0.]
+contact_points:
+  - link_name: right_finger
+    location: [-0.0425, 0, 0.06]
+    normal: [1., 0., 0.]
+  - link_name: left_finger
+    location: [0.0425, 0, 0.06]
+    normal: [-1., 0., 0.]
+transform_offset_from_asset_to_graspgen_convention: [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]]
+symmetric_antipodal: True
